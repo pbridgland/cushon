@@ -17,7 +17,7 @@ To get it running:
 #### login
 POST /login <br>
 with Request body example
-```
+```json
 {
     "username": "admin",
     "password": "password"
@@ -40,7 +40,7 @@ If authorised, or a 401 if unauthorised
 #### make investment
 POST /investments/newinvestment <br>
 with Request body example
-```
+```json
 {
     "fundID": 5,
     "amount": 2500000
